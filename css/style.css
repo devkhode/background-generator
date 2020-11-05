@@ -1,0 +1,31 @@
+body{
+    background:linear-gradient(to right, red, green);
+    background-size: cover;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    overflow-x: hidden;
+   
+}
+
+h1{
+    margin-top: 50px;
+}
+
+#direction{
+    height: 25px;
+    width: 18%;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+}
+
+#direction::placeholder{
+    font-size: 16px;
+}
+
+label{
+    text-transform: uppercase;
+}
